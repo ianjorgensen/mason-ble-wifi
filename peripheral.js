@@ -1,5 +1,5 @@
 var bleno = require('bleno')
-var BleWifiService = require('./lib/BleWifiService.js')
+var BleWifiService = require('./lib/bleWifiService.js')
 
 var name = 'Carysta'
 var bleWifiService = new BleWifiService();
