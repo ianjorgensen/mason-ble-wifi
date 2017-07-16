@@ -1,0 +1,12 @@
+{
+  "name": "mason-ble-wifi",
+  "version": "1.0.0",
+  "description": "Connect to wifi via ble",
+  "main": "index.js",
+  "author": "Ian Jorgensen <ian@linestudio.xyz>",
+  "dependencies": {
+    "bleno": "^0.4.2",
+    "ip": "^1.1.5",
+    "node-wifi": "^1.2.5"
+  }
+}
