@@ -17,3 +17,10 @@ sudo apt-get install -y nodejs
 `
 
 Install bleno. Flow instructions. https://github.com/sandeepmistry/bleno
+
+Install lil-pids.
+Starts and watches the ble service
+
+`
+npm install -g lil-pids
+`

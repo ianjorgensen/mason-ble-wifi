@@ -1,8 +1,11 @@
 var bleno = require('bleno')
+var settings = require('./settings.json')
+
 var BleWifiService = require('./lib/bleWifiService.js')
 
-var name = 'Carysta'
-var bleWifiService = new BleWifiService();
+var name = 'Carysta#' + settings.serialnumber
+
+var bleWifiService = new BleWifiService()
 
 bleno.on('stateChange', function(state) {
   if (state === 'poweredOn') {
